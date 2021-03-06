@@ -41,7 +41,7 @@ int main()
 		}
 		exit(5);
 		
-	printf("receive msg:%s,nbytes=%d,prio=%d\n",buf1,nbytes1,prio);
+	printf ("receive msg:%s,nbytes=%d,prio=%d\n",buf1,nbytes1,prio);
 	mq_close(mqid3);
 	return 0;
 }
